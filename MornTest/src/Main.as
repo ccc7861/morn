@@ -21,6 +21,7 @@ package {
 		
 		private function loadComplete(content:*):void {
 			addChild(new GameStage());
+			trace("cccTest_first");
 		}
 	}
 }
